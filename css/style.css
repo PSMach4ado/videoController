@@ -1,0 +1,39 @@
+body{
+    background-image: url(../assets/background.jpg); 
+}
+
+.container{
+    margin: auto;
+    position: relative;
+    width: 640px;
+    height: 360px;
+}
+
+.video{
+    width: 100%;
+}
+
+.controle{
+    opacity: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    text-align: center;
+}
+
+.controle:hover{
+    opacity: 100%;
+}
+
+.btn{
+    position: relative;
+    top: 105%;
+    transform: translateY(-105%);
+    width: 60px;
+    padding: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
